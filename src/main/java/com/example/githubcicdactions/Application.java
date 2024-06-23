@@ -12,6 +12,10 @@ public class Application {
     public String hello() {
         return "Hello, World!";
     }
+    @GetMapping("/")
+    public String welcome() {
+        return "Welcome to the world of CI/CD!";
+    }
 //    echo "# github-action-example" >> README.md
 //    git init
 //    git add README.md
